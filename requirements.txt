@@ -1,0 +1,8 @@
+﻿ccxt
+pandas
+numpy
+python-telegram-bot>=20.0
+python-dotenv
+ta
+cryptography
+pyyaml

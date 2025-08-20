@@ -1,0 +1,28 @@
+﻿mode: paper
+testnet: true
+
+default_market_type: swap
+timeframe: 15m
+limit: 1000
+
+risk:
+  max_risk_per_trade: 0.01
+  daily_max_drawdown: 0.03
+  min_order_usdt: 10
+
+strategy:
+  ema_fast: 20
+  ema_slow: 50
+  ema_trend: 200
+  rsi_len: 14
+  rsi_entry_long: 35
+  rsi_entry_short: 65
+  adx_len: 14
+  adx_threshold: 20
+  atr_len: 14
+  atr_mult_stop: 1.5
+  atr_mult_trail: 2.0
+  vol_len: 20
+  vol_mult: 1.0
+  partial_tp_ratio: 0.5
+  tp_rr: 1.0
